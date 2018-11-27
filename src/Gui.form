@@ -93,8 +93,8 @@
           <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <font name="Bodoni Ornaments"/>
-          <foreground color="-9850949"/>
+          <font name="Bodoni Ornaments" size="20"/>
+          <foreground color="-10842693"/>
           <text value="1"/>
         </properties>
       </component>
@@ -103,8 +103,8 @@
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <font name="Bodoni Ornaments"/>
-          <foreground color="-9850949"/>
+          <font name="Bodoni Ornaments" size="20"/>
+          <foreground color="-10842693"/>
           <text value="2"/>
         </properties>
       </component>
@@ -113,8 +113,9 @@
           <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <font name="Bodoni Ornaments"/>
-          <foreground color="-9850949"/>
+          <font name="Bodoni Ornaments" size="20"/>
+          <foreground color="-10842693"/>
+          <hideActionText value="true"/>
           <text value="3"/>
         </properties>
       </component>
@@ -123,8 +124,9 @@
           <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <font name="Bodoni Ornaments"/>
-          <foreground color="-9850949"/>
+          <font name="Bodoni Ornaments" size="20"/>
+          <foreground color="-10842693"/>
+          <selected value="true"/>
           <text value="4"/>
         </properties>
       </component>
@@ -133,8 +135,8 @@
           <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <font name="Bodoni Ornaments"/>
-          <foreground color="-9850949"/>
+          <font name="Bodoni Ornaments" size="24"/>
+          <foreground color="-10842693"/>
           <hideActionText value="true"/>
           <text value="5"/>
         </properties>
@@ -149,14 +151,6 @@
           <indeterminate value="false"/>
           <string value="0%  Done"/>
           <stringPainted value="true"/>
-        </properties>
-      </component>
-      <component id="d83cc" class="javax.swing.JCheckBox" binding="checkBox1" default-binding="true">
-        <constraints>
-          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="CheckBox"/>
         </properties>
       </component>
     </children>

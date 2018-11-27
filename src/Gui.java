@@ -19,7 +19,6 @@ public class Gui {
     private JCheckBox a4CheckBox;
     private JCheckBox a5CheckBox;
     private JProgressBar progressBar1;
-    private JCheckBox checkBox1;
 
 
     public static void main(String[] args) {
@@ -162,33 +161,35 @@ public class Gui {
         resultTask5.setText("Task ");
         myPanel.add(resultTask5, new com.intellij.uiDesigner.core.GridConstraints(5, 1, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_WEST, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
         a1CheckBox = new JCheckBox();
-        Font a1CheckBoxFont = this.$$$getFont$$$("Bodoni Ornaments", -1, -1, a1CheckBox.getFont());
+        Font a1CheckBoxFont = this.$$$getFont$$$("Bodoni Ornaments", -1, 20, a1CheckBox.getFont());
         if (a1CheckBoxFont != null) a1CheckBox.setFont(a1CheckBoxFont);
-        a1CheckBox.setForeground(new Color(-9850949));
+        a1CheckBox.setForeground(new Color(-10842693));
         a1CheckBox.setText("1");
         myPanel.add(a1CheckBox, new com.intellij.uiDesigner.core.GridConstraints(0, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_WEST, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_SHRINK | com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_GROW, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
         a2CheckBox = new JCheckBox();
-        Font a2CheckBoxFont = this.$$$getFont$$$("Bodoni Ornaments", -1, -1, a2CheckBox.getFont());
+        Font a2CheckBoxFont = this.$$$getFont$$$("Bodoni Ornaments", -1, 20, a2CheckBox.getFont());
         if (a2CheckBoxFont != null) a2CheckBox.setFont(a2CheckBoxFont);
-        a2CheckBox.setForeground(new Color(-9850949));
+        a2CheckBox.setForeground(new Color(-10842693));
         a2CheckBox.setText("2");
         myPanel.add(a2CheckBox, new com.intellij.uiDesigner.core.GridConstraints(2, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_WEST, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_SHRINK | com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_GROW, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
         a3CheckBox = new JCheckBox();
-        Font a3CheckBoxFont = this.$$$getFont$$$("Bodoni Ornaments", -1, -1, a3CheckBox.getFont());
+        Font a3CheckBoxFont = this.$$$getFont$$$("Bodoni Ornaments", -1, 20, a3CheckBox.getFont());
         if (a3CheckBoxFont != null) a3CheckBox.setFont(a3CheckBoxFont);
-        a3CheckBox.setForeground(new Color(-9850949));
+        a3CheckBox.setForeground(new Color(-10842693));
+        a3CheckBox.setHideActionText(true);
         a3CheckBox.setText("3");
         myPanel.add(a3CheckBox, new com.intellij.uiDesigner.core.GridConstraints(3, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_WEST, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_SHRINK | com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_GROW, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
         a4CheckBox = new JCheckBox();
-        Font a4CheckBoxFont = this.$$$getFont$$$("Bodoni Ornaments", -1, -1, a4CheckBox.getFont());
+        Font a4CheckBoxFont = this.$$$getFont$$$("Bodoni Ornaments", -1, 20, a4CheckBox.getFont());
         if (a4CheckBoxFont != null) a4CheckBox.setFont(a4CheckBoxFont);
-        a4CheckBox.setForeground(new Color(-9850949));
+        a4CheckBox.setForeground(new Color(-10842693));
+        a4CheckBox.setSelected(true);
         a4CheckBox.setText("4");
         myPanel.add(a4CheckBox, new com.intellij.uiDesigner.core.GridConstraints(4, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_WEST, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_SHRINK | com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_GROW, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
         a5CheckBox = new JCheckBox();
-        Font a5CheckBoxFont = this.$$$getFont$$$("Bodoni Ornaments", -1, -1, a5CheckBox.getFont());
+        Font a5CheckBoxFont = this.$$$getFont$$$("Bodoni Ornaments", -1, 24, a5CheckBox.getFont());
         if (a5CheckBoxFont != null) a5CheckBox.setFont(a5CheckBoxFont);
-        a5CheckBox.setForeground(new Color(-9850949));
+        a5CheckBox.setForeground(new Color(-10842693));
         a5CheckBox.setHideActionText(true);
         a5CheckBox.setText("5");
         myPanel.add(a5CheckBox, new com.intellij.uiDesigner.core.GridConstraints(5, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_WEST, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_SHRINK | com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_GROW, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
@@ -199,9 +200,6 @@ public class Gui {
         progressBar1.setString("0%  Done");
         progressBar1.setStringPainted(true);
         myPanel.add(progressBar1, new com.intellij.uiDesigner.core.GridConstraints(8, 1, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_CENTER, com.intellij.uiDesigner.core.GridConstraints.FILL_HORIZONTAL, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_WANT_GROW, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
-        checkBox1 = new JCheckBox();
-        checkBox1.setText("CheckBox");
-        myPanel.add(checkBox1, new com.intellij.uiDesigner.core.GridConstraints(3, 2, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_WEST, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_SHRINK | com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_GROW, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
     }
 
     /**

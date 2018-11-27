@@ -53,7 +53,7 @@ public class ToDoListGui extends SetUpUI{
                     myPanel.repaint();
                 } else if (counter == 5) {
                     resultTask5.setText(inputTask.getText());
-                    counter++;
+                    counter = 1;
                     myPanel.revalidate();
                     myPanel.repaint();
                 }
@@ -67,22 +67,27 @@ public class ToDoListGui extends SetUpUI{
             public void actionPerformed(ActionEvent e) {
                 if (inputTask.getText().equals("1")) {
                     myPanel.remove(resultTask1);
+                    a1CheckBox.setSelected(false);
                     myPanel.revalidate();
                     myPanel.repaint();
                 } else if (inputTask.getText().equals("2")) {
                     myPanel.remove(resultTask2);
+                    a2CheckBox.setSelected(false);
                     myPanel.revalidate();
                     myPanel.repaint();
                 } else if (inputTask.getText().equals("3")) {
                     myPanel.remove(resultTask3);
+                    a3CheckBox.setSelected(false);
                     myPanel.revalidate();
                     myPanel.repaint();
                 } else if (inputTask.getText().equals("4")) {
                     myPanel.remove(resultTask4);
+                    a4CheckBox.setSelected(false);
                     myPanel.revalidate();
                     myPanel.repaint();
                 } else if (inputTask.getText().equals("5")) {
                     myPanel.remove(resultTask5);
+                    a5CheckBox.setSelected(false);
                     myPanel.revalidate();
                     myPanel.repaint();
                 }
@@ -90,6 +95,4 @@ public class ToDoListGui extends SetUpUI{
             }
         });
     }
-
-
 }
