@@ -134,7 +134,6 @@ public final class ToDoList extends Observable implements Saveable, Loadable {
 
     public String getATask (int i){
         return String.valueOf(listTasks.get(i)+","+listTasks.get(i).getDueDate());
-
     }
 
     public ArrayList<String> splitOnComma(String line){

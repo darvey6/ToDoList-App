@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class ToDoListGui extends SetUpUI{
-
+    int counter = 1;
     public static void main(String[] args) {
         JFrame frame = new JFrame("Darvey's To-Do List");
         frame.setContentPane(new ToDoListGui().myPanel);
@@ -26,7 +26,6 @@ public class ToDoListGui extends SetUpUI{
     public ToDoListGui() {
         String taskName = inputTask.getText();
         addButton.addActionListener(new ActionListener() {
-            int counter = 1;
 
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -66,27 +65,32 @@ public class ToDoListGui extends SetUpUI{
             @Override
             public void actionPerformed(ActionEvent e) {
                 if (inputTask.getText().equals("1")) {
-                    myPanel.remove(resultTask1);
+                    resultTask1.setText("");
+                    counter = 1;
                     a1CheckBox.setSelected(false);
                     myPanel.revalidate();
                     myPanel.repaint();
                 } else if (inputTask.getText().equals("2")) {
-                    myPanel.remove(resultTask2);
+                    resultTask2.setText("");
+                    counter = 2;
                     a2CheckBox.setSelected(false);
                     myPanel.revalidate();
                     myPanel.repaint();
                 } else if (inputTask.getText().equals("3")) {
-                    myPanel.remove(resultTask3);
+                    resultTask3.setText("");
+                    counter = 3;
                     a3CheckBox.setSelected(false);
                     myPanel.revalidate();
                     myPanel.repaint();
                 } else if (inputTask.getText().equals("4")) {
-                    myPanel.remove(resultTask4);
+                    resultTask4.setText("");
+                    counter = 4;
                     a4CheckBox.setSelected(false);
                     myPanel.revalidate();
                     myPanel.repaint();
                 } else if (inputTask.getText().equals("5")) {
-                    myPanel.remove(resultTask5);
+                    resultTask5.setText("");
+                    counter = 5;
                     a5CheckBox.setSelected(false);
                     myPanel.revalidate();
                     myPanel.repaint();
